@@ -1,4 +1,4 @@
-package com.app;
+package app;
 
 import java.time.Duration;
 import org.openqa.selenium.By;

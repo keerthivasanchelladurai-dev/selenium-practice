@@ -1,4 +1,4 @@
-package com.app;
+package app;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
