@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.*;
 
 import java.time.Duration;
 
-public class fifth {
+public class FifthTest {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();

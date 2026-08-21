@@ -8,7 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 
 import java.time.Duration;
 
-public class Action {
+public class SeventhTest {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
