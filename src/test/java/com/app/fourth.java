@@ -1,4 +1,4 @@
-package app;
+package com.app;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
