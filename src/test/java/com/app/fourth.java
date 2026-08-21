@@ -15,7 +15,7 @@ public class fourth {
         driver.manage().window().maximize();
         driver.get("https://demoqa.com/alerts");
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        driver.findElement(By.xpath("//button[@id='alertButton']")).click();
+        driver.findElement(By.xpath("//button[@id='timerAlertButton']")).click();
         Alert alert = wait.until(ExpectedConditions.alertIsPresent());
 
         System.out.println("Alert Message: " + alert.getText());
